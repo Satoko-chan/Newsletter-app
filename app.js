@@ -15,7 +15,7 @@ app.get("/", function (req, res) {
 
 app.post("/", function (req, res) {
   const firstName = req.body.firstName;
-  const lastName = req.body.lasrName;
+  const lastName = req.body.lastName;
   const email = req.body.email;
   console.log(firstName, lastName, email);
 
